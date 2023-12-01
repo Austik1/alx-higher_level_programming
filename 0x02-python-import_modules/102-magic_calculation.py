@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def magic_calculation(a, b):
     add = __import__('magic_calculation_102').add
-    sub__import__('magic_calculation_102').sub
+    sub = __import__('magic_calculation_102').sub
 
     if a < b:
         c = add(a, b)
