@@ -3,8 +3,7 @@ void print_python_list(PyObject *p) {
     if (!PyList_Check(p)) {
         printf("Error: Invalid Python list object.\n");
         return;
-    }
-    
+    }    
     printf("[");
     Py_ssize_t size = PyList_Size(p);
     for (Py_ssize_t i = 0; i < size; i++) {
