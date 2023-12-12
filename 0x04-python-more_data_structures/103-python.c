@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-103-python.c
 #include <stdio.h>
 #include <python.h>
 
