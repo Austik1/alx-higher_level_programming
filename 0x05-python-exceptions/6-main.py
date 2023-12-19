@@ -5,6 +5,3 @@ try:
     raise_exception_msg("C is fun")
 except NameError as ne:
     print(ne)
-
-guillaume@ubuntu:~/0x05$ ./6-main.py
-C is fun
